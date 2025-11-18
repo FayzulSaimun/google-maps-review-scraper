@@ -64,7 +64,7 @@ reviews = scraper.scrape_reviews(
 print(f"Scraped {len(reviews)} reviews")
 ```
 
-> **No Reviews Found**
+> **No Reviews Found Error?**
 > 1. You have to select the proper url from place page.
 > 2. Go to the place page and click on the "Reviews" tab.
 > 3. The url will be like this: `https://www.google.com/maps/place/.../reviews`
