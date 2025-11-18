@@ -64,6 +64,12 @@ reviews = scraper.scrape_reviews(
 print(f"Scraped {len(reviews)} reviews")
 ```
 
+> **No Reviews Found**
+> 1. You have to select the proper url from place page.
+> 2. Go to the place page and click on the "Reviews" tab.
+> 3. The url will be like this: `https://www.google.com/maps/place/.../reviews`
+> 4. Copy the url and paste it in the code.
+
 ### Output Formats
 
 **JSON Output:**
@@ -167,21 +173,6 @@ setup_logger(level=logging.WARNING, colored=True)
 # Then use scraper
 scraper = GoogleMapsReviewsScraper()
 ```
-
-## Browser Impersonation
-
-Automatically rotates between:
-- Chrome (99, 100, 101, 104, 107, 110, 116, 119, 120, 123, 124, 131, 133a, 136)
-- Chrome Android (99, 131)
-- Edge (99, 101)
-- Safari (15.3, 15.5)
-
-## Troubleshooting
-```No Reviews Found```
-1. You have to select the proper url from place page.
-2. Go to the place page and click on the "Reviews" tab.
-3. The url will be like this: `https://www.google.com/maps/place/.../reviews`
-4. Copy the url and paste it in the code.
 
 ## License
 
