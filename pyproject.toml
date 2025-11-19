@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "google-maps-reviews"
+name = "gmaps-review-scraper"
 version = "0.1.0"
 description = "A high-performance Python scraper for Google Maps reviews with browser impersonation (curl_cffi) and proxy support"
 readme = "README.md"
@@ -61,7 +61,7 @@ Issues = "https://github.com/FayzulSaimun/google-maps-review-scraper/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
-force-include = { "src/" = "google_maps_reviews/" }
+force-include = { "src/" = "gmaps_review_scraper/" }
 
 [tool.hatch.build.targets.sdist]
 include = [

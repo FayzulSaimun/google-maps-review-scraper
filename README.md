@@ -14,7 +14,7 @@ A Python package for scraping Google Maps reviews without browser dependencies u
 ## Installation
 
 ```bash
-pip install google-maps-reviews
+pip install gmaps-review-scraper
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ pip install google-maps-reviews
 
 ```python
 import asyncio
-from google_maps_reviews import GoogleMapsReviewsScraper
+from gmaps_review_scraper import GoogleMapsReviewsScraper
 
 async def main():
     scraper = GoogleMapsReviewsScraper(
@@ -47,7 +47,7 @@ asyncio.run(main())
 ### Sync Usage
 
 ```python
-from google_maps_reviews import GoogleMapsReviewsScraperSync
+from gmaps_review_scraper import GoogleMapsReviewsScraperSync
 
 scraper = GoogleMapsReviewsScraperSync(
     proxy="http://username:password@ip:port",  # Optional
@@ -164,7 +164,7 @@ reviews = scraper.scrape_reviews(url, verbose=False)
 You can also customize the logger directly:
 
 ```python
-from google_maps_reviews import setup_logger
+from gmaps_review_scraper import setup_logger
 import logging
 
 # Setup custom logger
