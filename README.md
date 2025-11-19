@@ -14,7 +14,7 @@ A Python package for scraping Google Maps reviews without browser dependencies u
 ## Installation
 
 ```bash
-pip google-maps-reviews
+pip install google-maps-reviews
 ```
 
 ## Usage

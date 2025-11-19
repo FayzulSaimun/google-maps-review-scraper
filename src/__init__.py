@@ -36,7 +36,7 @@ from .emulation import BrowserEmulator
 from .logger import setup_logger, get_logger
 
 __version__ = "0.1.0"
-__author__ = "Your Name"
+__author__ = "SamuraiSam"
 __all__ = [
     "GoogleMapsReviewsScraper",
     "GoogleMapsReviewsScraperSync",
@@ -45,4 +45,3 @@ __all__ = [
     "setup_logger",
     "get_logger",
 ]
-
